@@ -1,0 +1,23 @@
+{
+  "name": "css-props-data",
+  "version": "0.0.0",
+  "description": "Data of CSS properties",
+  "main": "index.js",
+  "scripts": {
+    "crawl": "bin/crawl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/css-props-data/git"
+  },
+  "keywords": [
+    "css",
+    "properties",
+    "data"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "devDependencies": {
+    "x-ray": "^2.3.2"
+  }
+}

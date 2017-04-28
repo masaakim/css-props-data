@@ -1,0 +1,1122 @@
+[
+  {
+    "name": "align-content",
+    "inherit": false
+  },
+  {
+    "name": "align-items",
+    "inherit": false
+  },
+  {
+    "name": "align-self",
+    "inherit": false
+  },
+  {
+    "name": "all",
+    "inherit": false
+  },
+  {
+    "name": "animation",
+    "inherit": false
+  },
+  {
+    "name": "animation-delay",
+    "inherit": false
+  },
+  {
+    "name": "animation-direction",
+    "inherit": false
+  },
+  {
+    "name": "animation-duration",
+    "inherit": false
+  },
+  {
+    "name": "animation-fill-mode",
+    "inherit": false
+  },
+  {
+    "name": "animation-iteration-count",
+    "inherit": false
+  },
+  {
+    "name": "animation-name",
+    "inherit": false
+  },
+  {
+    "name": "animation-play-state",
+    "inherit": false
+  },
+  {
+    "name": "animation-timing-function",
+    "inherit": false
+  },
+  {
+    "name": "backface-visibility",
+    "inherit": false
+  },
+  {
+    "name": "background",
+    "inherit": false
+  },
+  {
+    "name": "background-attachment",
+    "inherit": false
+  },
+  {
+    "name": "background-blend-mode",
+    "inherit": false
+  },
+  {
+    "name": "background-clip",
+    "inherit": false
+  },
+  {
+    "name": "background-color",
+    "inherit": false
+  },
+  {
+    "name": "background-image",
+    "inherit": false
+  },
+  {
+    "name": "background-origin",
+    "inherit": false
+  },
+  {
+    "name": "background-position",
+    "inherit": false
+  },
+  {
+    "name": "background-repeat",
+    "inherit": false
+  },
+  {
+    "name": "background-size",
+    "inherit": false
+  },
+  {
+    "name": "block-size",
+    "inherit": false
+  },
+  {
+    "name": "border",
+    "inherit": false
+  },
+  {
+    "name": "border-block-end",
+    "inherit": false
+  },
+  {
+    "name": "border-block-end-color",
+    "inherit": false
+  },
+  {
+    "name": "border-block-end-style",
+    "inherit": false
+  },
+  {
+    "name": "border-block-end-width",
+    "inherit": false
+  },
+  {
+    "name": "border-block-start",
+    "inherit": false
+  },
+  {
+    "name": "border-block-start-color",
+    "inherit": false
+  },
+  {
+    "name": "border-block-start-style",
+    "inherit": false
+  },
+  {
+    "name": "border-block-start-width",
+    "inherit": false
+  },
+  {
+    "name": "border-bottom",
+    "inherit": false
+  },
+  {
+    "name": "border-bottom-color",
+    "inherit": false
+  },
+  {
+    "name": "border-bottom-left-radius",
+    "inherit": false
+  },
+  {
+    "name": "border-bottom-right-radius",
+    "inherit": false
+  },
+  {
+    "name": "border-bottom-style",
+    "inherit": false
+  },
+  {
+    "name": "border-bottom-width",
+    "inherit": false
+  },
+  {
+    "name": "border-collapse",
+    "inherit": true
+  },
+  {
+    "name": "border-color",
+    "inherit": false
+  },
+  {
+    "name": "border-image",
+    "inherit": false
+  },
+  {
+    "name": "border-image-outset",
+    "inherit": false
+  },
+  {
+    "name": "border-image-repeat",
+    "inherit": false
+  },
+  {
+    "name": "border-image-slice",
+    "inherit": false
+  },
+  {
+    "name": "border-image-source",
+    "inherit": false
+  },
+  {
+    "name": "border-image-width",
+    "inherit": false
+  },
+  {
+    "name": "border-inline-end",
+    "inherit": false
+  },
+  {
+    "name": "border-inline-end-color",
+    "inherit": false
+  },
+  {
+    "name": "border-inline-end-style",
+    "inherit": false
+  },
+  {
+    "name": "border-inline-end-width",
+    "inherit": false
+  },
+  {
+    "name": "border-inline-start",
+    "inherit": false
+  },
+  {
+    "name": "border-inline-start-color",
+    "inherit": false
+  },
+  {
+    "name": "border-inline-start-style",
+    "inherit": false
+  },
+  {
+    "name": "border-inline-start-width",
+    "inherit": false
+  },
+  {
+    "name": "border-left",
+    "inherit": false
+  },
+  {
+    "name": "border-left-color",
+    "inherit": false
+  },
+  {
+    "name": "border-left-style",
+    "inherit": false
+  },
+  {
+    "name": "border-left-width",
+    "inherit": false
+  },
+  {
+    "name": "border-radius",
+    "inherit": false
+  },
+  {
+    "name": "border-right",
+    "inherit": false
+  },
+  {
+    "name": "border-right-color",
+    "inherit": false
+  },
+  {
+    "name": "border-right-style",
+    "inherit": false
+  },
+  {
+    "name": "border-right-width",
+    "inherit": false
+  },
+  {
+    "name": "border-spacing",
+    "inherit": true
+  },
+  {
+    "name": "border-style",
+    "inherit": false
+  },
+  {
+    "name": "border-top",
+    "inherit": false
+  },
+  {
+    "name": "border-top-color",
+    "inherit": false
+  },
+  {
+    "name": "border-top-left-radius",
+    "inherit": false
+  },
+  {
+    "name": "border-top-right-radius",
+    "inherit": false
+  },
+  {
+    "name": "border-top-style",
+    "inherit": false
+  },
+  {
+    "name": "border-top-width",
+    "inherit": false
+  },
+  {
+    "name": "border-width",
+    "inherit": false
+  },
+  {
+    "name": "bottom",
+    "inherit": false
+  },
+  {
+    "name": "box-decoration-break",
+    "inherit": false
+  },
+  {
+    "name": "box-shadow",
+    "inherit": false
+  },
+  {
+    "name": "box-sizing",
+    "inherit": false
+  },
+  {
+    "name": "break-after",
+    "inherit": false
+  },
+  {
+    "name": "break-before",
+    "inherit": false
+  },
+  {
+    "name": "break-inside",
+    "inherit": false
+  },
+  {
+    "name": "caption-side",
+    "inherit": true
+  },
+  {
+    "name": "caret-color",
+    "inherit": true
+  },
+  {
+    "name": "clear",
+    "inherit": false
+  },
+  {
+    "name": "clip",
+    "inherit": false
+  },
+  {
+    "name": "clip-path",
+    "inherit": false
+  },
+  {
+    "name": "color",
+    "inherit": true
+  },
+  {
+    "name": "column-count",
+    "inherit": false
+  },
+  {
+    "name": "column-fill",
+    "inherit": false
+  },
+  {
+    "name": "column-gap",
+    "inherit": false
+  },
+  {
+    "name": "column-rule",
+    "inherit": false
+  },
+  {
+    "name": "column-rule-color",
+    "inherit": false
+  },
+  {
+    "name": "column-rule-style",
+    "inherit": false
+  },
+  {
+    "name": "column-rule-width",
+    "inherit": false
+  },
+  {
+    "name": "column-span",
+    "inherit": false
+  },
+  {
+    "name": "column-width",
+    "inherit": false
+  },
+  {
+    "name": "columns",
+    "inherit": false
+  },
+  {
+    "name": "content",
+    "inherit": false
+  },
+  {
+    "name": "counter-increment",
+    "inherit": false
+  },
+  {
+    "name": "counter-reset",
+    "inherit": false
+  },
+  {
+    "name": "cursor",
+    "inherit": true
+  },
+  {
+    "name": "direction",
+    "inherit": true
+  },
+  {
+    "name": "display",
+    "inherit": false
+  },
+  {
+    "name": "empty-cells",
+    "inherit": true
+  },
+  {
+    "name": "filter",
+    "inherit": false
+  },
+  {
+    "name": "<flex>",
+    "inherit": false
+  },
+  {
+    "name": "flex-basis",
+    "inherit": false
+  },
+  {
+    "name": "flex-direction",
+    "inherit": false
+  },
+  {
+    "name": "flex-flow",
+    "inherit": false
+  },
+  {
+    "name": "flex-grow",
+    "inherit": false
+  },
+  {
+    "name": "flex-shrink",
+    "inherit": false
+  },
+  {
+    "name": "flex-wrap",
+    "inherit": false
+  },
+  {
+    "name": "float",
+    "inherit": false
+  },
+  {
+    "name": "font",
+    "inherit": true
+  },
+  {
+    "name": "font-family",
+    "inherit": true
+  },
+  {
+    "name": "font-feature-settings",
+    "inherit": true
+  },
+  {
+    "name": "font-kerning",
+    "inherit": true
+  },
+  {
+    "name": "font-language-override",
+    "inherit": true
+  },
+  {
+    "name": "font-size",
+    "inherit": true
+  },
+  {
+    "name": "font-size-adjust",
+    "inherit": true
+  },
+  {
+    "name": "font-stretch",
+    "inherit": true
+  },
+  {
+    "name": "font-style",
+    "inherit": true
+  },
+  {
+    "name": "font-synthesis",
+    "inherit": true
+  },
+  {
+    "name": "font-variant",
+    "inherit": true
+  },
+  {
+    "name": "font-variant-alternates",
+    "inherit": true
+  },
+  {
+    "name": "font-variant-caps",
+    "inherit": true
+  },
+  {
+    "name": "font-variant-east-asian",
+    "inherit": true
+  },
+  {
+    "name": "font-variant-ligatures",
+    "inherit": true
+  },
+  {
+    "name": "font-variant-numeric",
+    "inherit": true
+  },
+  {
+    "name": "font-variant-position",
+    "inherit": true
+  },
+  {
+    "name": "font-weight",
+    "inherit": true
+  },
+  {
+    "name": "grid",
+    "inherit": false
+  },
+  {
+    "name": "grid-area",
+    "inherit": false
+  },
+  {
+    "name": "grid-auto-columns",
+    "inherit": false
+  },
+  {
+    "name": "grid-auto-flow",
+    "inherit": false
+  },
+  {
+    "name": "grid-auto-rows",
+    "inherit": false
+  },
+  {
+    "name": "grid-column",
+    "inherit": false
+  },
+  {
+    "name": "grid-column-end",
+    "inherit": false
+  },
+  {
+    "name": "grid-column-gap",
+    "inherit": false
+  },
+  {
+    "name": "grid-column-start",
+    "inherit": false
+  },
+  {
+    "name": "grid-gap",
+    "inherit": false
+  },
+  {
+    "name": "grid-row",
+    "inherit": false
+  },
+  {
+    "name": "grid-row-end",
+    "inherit": false
+  },
+  {
+    "name": "grid-row-gap",
+    "inherit": false
+  },
+  {
+    "name": "grid-row-start",
+    "inherit": false
+  },
+  {
+    "name": "grid-template",
+    "inherit": false
+  },
+  {
+    "name": "grid-template-areas",
+    "inherit": false
+  },
+  {
+    "name": "grid-template-columns",
+    "inherit": false
+  },
+  {
+    "name": "grid-template-rows",
+    "inherit": false
+  },
+  {
+    "name": "height",
+    "inherit": false
+  },
+  {
+    "name": "hyphens",
+    "inherit": true
+  },
+  {
+    "name": "image-orientation",
+    "inherit": true
+  },
+  {
+    "name": "image-rendering",
+    "inherit": true
+  },
+  {
+    "name": "ime-mode",
+    "inherit": false
+  },
+  {
+    "name": "inline-size",
+    "inherit": false
+  },
+  {
+    "name": "isolation",
+    "inherit": false
+  },
+  {
+    "name": "justify-content",
+    "inherit": false
+  },
+  {
+    "name": "left",
+    "inherit": false
+  },
+  {
+    "name": "letter-spacing",
+    "inherit": true
+  },
+  {
+    "name": "line-break",
+    "inherit": false
+  },
+  {
+    "name": "line-height",
+    "inherit": true
+  },
+  {
+    "name": "list-style",
+    "inherit": true
+  },
+  {
+    "name": "list-style-image",
+    "inherit": true
+  },
+  {
+    "name": "list-style-position",
+    "inherit": true
+  },
+  {
+    "name": "list-style-type",
+    "inherit": true
+  },
+  {
+    "name": "margin",
+    "inherit": false
+  },
+  {
+    "name": "margin-block-end",
+    "inherit": false
+  },
+  {
+    "name": "margin-block-start",
+    "inherit": false
+  },
+  {
+    "name": "margin-bottom",
+    "inherit": false
+  },
+  {
+    "name": "margin-inline-end",
+    "inherit": false
+  },
+  {
+    "name": "margin-inline-start",
+    "inherit": false
+  },
+  {
+    "name": "margin-left",
+    "inherit": false
+  },
+  {
+    "name": "margin-right",
+    "inherit": false
+  },
+  {
+    "name": "margin-top",
+    "inherit": false
+  },
+  {
+    "name": "mask",
+    "inherit": false
+  },
+  {
+    "name": "mask-clip",
+    "inherit": false
+  },
+  {
+    "name": "mask-composite",
+    "inherit": false
+  },
+  {
+    "name": "mask-image",
+    "inherit": false
+  },
+  {
+    "name": "mask-mode",
+    "inherit": false
+  },
+  {
+    "name": "mask-origin",
+    "inherit": false
+  },
+  {
+    "name": "mask-position",
+    "inherit": false
+  },
+  {
+    "name": "mask-repeat",
+    "inherit": false
+  },
+  {
+    "name": "mask-size",
+    "inherit": false
+  },
+  {
+    "name": "mask-type",
+    "inherit": false
+  },
+  {
+    "name": "max-height",
+    "inherit": false
+  },
+  {
+    "name": "max-width",
+    "inherit": false
+  },
+  {
+    "name": "min-block-size",
+    "inherit": false
+  },
+  {
+    "name": "min-height",
+    "inherit": false
+  },
+  {
+    "name": "min-inline-size",
+    "inherit": false
+  },
+  {
+    "name": "min-width",
+    "inherit": false
+  },
+  {
+    "name": "mix-blend-mode",
+    "inherit": false
+  },
+  {
+    "name": "object-fit",
+    "inherit": false
+  },
+  {
+    "name": "object-position",
+    "inherit": true
+  },
+  {
+    "name": "offset-block-end",
+    "inherit": false
+  },
+  {
+    "name": "offset-block-start",
+    "inherit": false
+  },
+  {
+    "name": "offset-inline-end",
+    "inherit": false
+  },
+  {
+    "name": "offset-inline-start",
+    "inherit": false
+  },
+  {
+    "name": "opacity",
+    "inherit": false
+  },
+  {
+    "name": "order",
+    "inherit": false
+  },
+  {
+    "name": "orphans",
+    "inherit": true
+  },
+  {
+    "name": "outline",
+    "inherit": false
+  },
+  {
+    "name": "outline-color",
+    "inherit": false
+  },
+  {
+    "name": "outline-offset",
+    "inherit": false
+  },
+  {
+    "name": "outline-style",
+    "inherit": false
+  },
+  {
+    "name": "outline-width",
+    "inherit": false
+  },
+  {
+    "name": "overflow",
+    "inherit": false
+  },
+  {
+    "name": "overflow-wrap",
+    "inherit": true
+  },
+  {
+    "name": "overflow-x",
+    "inherit": false
+  },
+  {
+    "name": "overflow-y",
+    "inherit": false
+  },
+  {
+    "name": "padding",
+    "inherit": false
+  },
+  {
+    "name": "padding-block-end",
+    "inherit": false
+  },
+  {
+    "name": "padding-block-start",
+    "inherit": false
+  },
+  {
+    "name": "padding-bottom",
+    "inherit": false
+  },
+  {
+    "name": "padding-inline-end",
+    "inherit": false
+  },
+  {
+    "name": "padding-inline-start",
+    "inherit": false
+  },
+  {
+    "name": "padding-left",
+    "inherit": false
+  },
+  {
+    "name": "padding-right",
+    "inherit": false
+  },
+  {
+    "name": "padding-top",
+    "inherit": false
+  },
+  {
+    "name": "page-break-after",
+    "inherit": false
+  },
+  {
+    "name": "page-break-before",
+    "inherit": false
+  },
+  {
+    "name": "page-break-inside",
+    "inherit": false
+  },
+  {
+    "name": "perspective",
+    "inherit": false
+  },
+  {
+    "name": "perspective-origin",
+    "inherit": false
+  },
+  {
+    "name": "pointer-events",
+    "inherit": true
+  },
+  {
+    "name": "position",
+    "inherit": false
+  },
+  {
+    "name": "quotes",
+    "inherit": true
+  },
+  {
+    "name": "resize",
+    "inherit": false
+  },
+  {
+    "name": "right",
+    "inherit": false
+  },
+  {
+    "name": "ruby-align",
+    "inherit": true
+  },
+  {
+    "name": "ruby-position",
+    "inherit": true
+  },
+  {
+    "name": "scroll-behavior",
+    "inherit": false
+  },
+  {
+    "name": "scroll-snap-coordinate",
+    "inherit": false
+  },
+  {
+    "name": "scroll-snap-destination",
+    "inherit": false
+  },
+  {
+    "name": "scroll-snap-type",
+    "inherit": false
+  },
+  {
+    "name": "shape-image-threshold",
+    "inherit": false
+  },
+  {
+    "name": "shape-margin",
+    "inherit": false
+  },
+  {
+    "name": "shape-outside",
+    "inherit": false
+  },
+  {
+    "name": "tab-size",
+    "inherit": true
+  },
+  {
+    "name": "table-layout",
+    "inherit": false
+  },
+  {
+    "name": "text-align",
+    "inherit": true
+  },
+  {
+    "name": "text-align-last",
+    "inherit": true
+  },
+  {
+    "name": "text-combine-upright",
+    "inherit": true
+  },
+  {
+    "name": "text-decoration",
+    "inherit": false
+  },
+  {
+    "name": "text-decoration-color",
+    "inherit": false
+  },
+  {
+    "name": "text-decoration-line",
+    "inherit": false
+  },
+  {
+    "name": "text-decoration-style",
+    "inherit": false
+  },
+  {
+    "name": "text-emphasis",
+    "inherit": false
+  },
+  {
+    "name": "text-emphasis-color",
+    "inherit": false
+  },
+  {
+    "name": "text-emphasis-position",
+    "inherit": false
+  },
+  {
+    "name": "text-emphasis-style",
+    "inherit": false
+  },
+  {
+    "name": "text-indent",
+    "inherit": true
+  },
+  {
+    "name": "text-orientation",
+    "inherit": true
+  },
+  {
+    "name": "text-overflow",
+    "inherit": false
+  },
+  {
+    "name": "text-rendering",
+    "inherit": true
+  },
+  {
+    "name": "text-shadow",
+    "inherit": true
+  },
+  {
+    "name": "text-transform",
+    "inherit": true
+  },
+  {
+    "name": "text-underline-position",
+    "inherit": true
+  },
+  {
+    "name": "top",
+    "inherit": false
+  },
+  {
+    "name": "touch-action",
+    "inherit": false
+  },
+  {
+    "name": "transform",
+    "inherit": false
+  },
+  {
+    "name": "transform-box",
+    "inherit": false
+  },
+  {
+    "name": "transform-origin",
+    "inherit": false
+  },
+  {
+    "name": "transform-style",
+    "inherit": false
+  },
+  {
+    "name": "transition",
+    "inherit": false
+  },
+  {
+    "name": "transition-delay",
+    "inherit": false
+  },
+  {
+    "name": "transition-duration",
+    "inherit": false
+  },
+  {
+    "name": "transition-property",
+    "inherit": false
+  },
+  {
+    "name": "transition-timing-function",
+    "inherit": false
+  },
+  {
+    "name": "unicode-bidi",
+    "inherit": false
+  },
+  {
+    "name": "vertical-align",
+    "inherit": false
+  },
+  {
+    "name": "visibility",
+    "inherit": true
+  },
+  {
+    "name": "white-space",
+    "inherit": true
+  },
+  {
+    "name": "widows",
+    "inherit": true
+  },
+  {
+    "name": "width",
+    "inherit": false
+  },
+  {
+    "name": "will-change",
+    "inherit": false
+  },
+  {
+    "name": "word-break",
+    "inherit": true
+  },
+  {
+    "name": "word-spacing",
+    "inherit": true
+  },
+  {
+    "name": "word-wrap",
+    "inherit": true
+  },
+  {
+    "name": "writing-mode",
+    "inherit": true
+  },
+  {
+    "name": "z-index",
+    "inherit": false
+  }
+]

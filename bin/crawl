@@ -1,0 +1,120 @@
+#!/usr/bin/env node
+
+const fs = require('fs')
+const util = require('util')
+const xray = require('x-ray')()
+
+const URL = 'https://developer.mozilla.org/en-US/docs/Web/CSS/Reference'
+const NOT_FOUND = ''
+const OUTPUT = './data.json'
+const TIMEOUT = 5000
+
+getItems(URL)
+  .then(getDefinitions)
+  .then((results) => {
+    console.log('Finished')
+    let rets = results.filter(val => {
+      return (!isEmptyObject(val))
+    })
+    fs.writeFile(OUTPUT, JSON.stringify(rets, null, '  '), 'utf8', (err) => {
+      if (err) {
+        throw err
+      }
+      console.log('Building an output file: ', OUTPUT)
+    })
+  }).catch((err) => {
+    console.error('err >> ', err)
+  })
+
+function getItems(url) {
+  return new Promise((resolve, reject) => {
+    xray(url, '.index a', [{
+      type: 'code@text',
+      link: '@href'
+    }])((err, obj) => {
+      if (err) {
+        return reject(err)
+      }
+      else if (isEmptyObject(obj) || !obj) {
+        return reject(new Error('The target is not found.'))
+      }
+      resolve(obj)
+    })
+  })
+}
+
+function getDefinitions(items) {
+  if (!util.isArray(items)) {
+    throw new Error('items must be Array')
+  }
+  console.log('All Items: ', items.length)
+  let results = []
+  let completed = 0
+  const request = () => {
+    const process = []
+    const limit = 5 + completed
+    let offset = completed
+
+    while (offset < limit && offset < items.length) {
+      const promise = getDefinition(items[offset])
+      if (promise) {
+        process.push(promise)
+      }
+      offset++
+    }
+    completed = offset
+    console.log('The request has been completed: ', completed)
+
+    return Promise.all(process).then((res) => {
+      results = results.concat(res)
+      if (completed < items.length) {
+        return request()
+      }
+      return Promise.resolve(results)
+    })
+  }
+  return request()
+}
+
+function getDefinition(item) {
+  if (!item.link) {
+    throw new Error('link property does not exist for item')
+  }
+  if (item.type.match(/\(\)|^\-\-/)) {
+    return
+  }
+  return new Promise((resolve, reject) => {
+    let timerId = setTimeout(function() {
+      console.log("Request timeout:", item.type)
+      result.type = item.type
+      result.isInherit = [NOT_FOUND]
+      resolve(result)
+    }, TIMEOUT)
+
+    let result = {}
+    xray(item.link, '.properties tr:nth-child(3) td')((err, inherit) => {
+      console.log(item.type, ' is inherit?? : ', inherit)
+      clearTimeout(timerId)
+      if (err) {
+        return reject(err)
+      }
+      let isInherit
+      if (inherit === 'yes') {
+        isInherit = true
+      }
+      if (inherit === 'no') {
+        isInherit = false
+      }
+
+      if (isInherit !== undefined) {
+        result.name = item.type
+        result.inherit = isInherit
+      }
+      resolve(result)
+    })
+  })
+}
+
+function isEmptyObject(obj) {
+  return !Object.keys(obj).length
+}
